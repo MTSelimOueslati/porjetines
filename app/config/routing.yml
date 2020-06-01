@@ -1,0 +1,15 @@
+order:
+    resource: "@OrderBundle/Resources/config/routing.yml"
+    prefix:   /
+
+shopping_cart:
+    resource: "@ShoppingCartBundle/Resources/config/routing.yml"
+    prefix:   /cart
+bascla:
+    resource: "@basclaBundle/Resources/config/routing.yml"
+    prefix:   /bascla
+fos_user:
+    resource: "@FOSUserBundle/Resources/config/routing/all.xml"
+app:
+    resource: '@AppBundle/Controller/'
+    type: annotation
